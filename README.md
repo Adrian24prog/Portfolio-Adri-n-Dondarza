@@ -16,7 +16,7 @@ Este portfolio ha sido creado para mostrar mis habilidades como desarrollador/a 
 Puedes visitar la versión online del portfolio aquí:  
 [🔗 [Ver portfolio](https://Adrian24prog.github.io/Portfolio-Adri-n-Dondarza)]
 
-No es necesario instalar nada. Solo abre el enlace en tu navegador y navega por las secciones: presentación, proyectos, habilidades y contacto.
+No es necesario instalar nada. Solo abre el enlace en tu navegador y navega por las distintas secciones.
 
 ## 📌 Características destacadas
 
