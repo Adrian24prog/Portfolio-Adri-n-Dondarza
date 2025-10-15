@@ -1,0 +1,465 @@
+/* Barra de navegación */
+.navbar-custom {
+    background-color: #1b1b32;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.navbar-custom .navbar-brand .logo {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #0d6efd !important; 
+    transform: scale(1.1);
+}
+
+
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Segoe UI';
+
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-oscura2 {
+    color: white;
+    background-color: #1b1b32;
+    margin-top: 150px;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Segoe UI';
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+
+.seccion-descripcion {
+    font-size: 1.2;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+
+}
+
+.texto-negro {
+    color: black;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+
+
+/* Hero Section */
+.hero {
+    background-color: #f5f6f7; 
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: #1b1b32;
+}
+
+.hero-principal h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 15px 0 10px;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #615151; 
+    margin-bottom: 20px;
+}
+
+.hero-img-desarrollador {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #1b1b32;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+/* Botón Hero */
+.btn-hero {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #0d6efd; 
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: #198754; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+/* Seccion Sobre mi */
+.sobre-mi {
+    padding: 10px;
+    height: 500px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Seccion Experiencia */
+.experiencia {
+    padding: 40px 40px 60px 40px;
+
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: greenyellow;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+
+.badge {
+    margin: 5px;
+}
+
+/* Seccion Proyectos */
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    width: 100%;
+    height: 250px;      
+    object-fit: cover;     
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto:hover img {
+    opacity: 0.5;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+    margin-left: 18px;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+/* Seccion Contacto */
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    
+    color: black;
+}
+
+/* Footer */
+footer {
+    min-height: 500px;
+
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.iconos-redes-sociales a {
+height: 50px;
+    width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+   
+}
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+/* Adaptable (responsivo) */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 500px;
+    }
+}
+
+/* Soft Skills - estilo tarjetas */
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f8f9fa;
+}
+
+/* Certificaciones*/
+.cert-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #ffffff;
+    border-left: 6px solid #0d6efd; 
+}
+
+.cert-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    background: #f8f9fa;
+    border-left: 6px solid #198754; 
+}
+
+/* Estado normal del badge */
+.cert-card .badge {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    font-size: 0.85rem;
+    border-radius: 12px;
+    background-color: #198754; /* verde bootstrap */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover del badge */
+.cert-card .badge:hover {
+    background-color: #0d6efd; /* azul bootstrap */
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Idiomas */
+.idiomas {
+  background-color: #f8f9fa;
+}
+
+.idiomas h2 {
+  font-weight: 700;
+  color: #1b1b32;
+}
+
+.idioma-bar {
+  height: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #e9ecef;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 1s ease-in-out;
+}
