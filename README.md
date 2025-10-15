@@ -14,7 +14,7 @@ Este portfolio ha sido creado para mostrar mis habilidades como desarrollador/a 
 ## 🌍 Acceso al sitio
 
 Puedes visitar la versión online del portfolio aquí:  
-[🔗 [Ver portfolio en línea](https://Adrian24prog.github.io/Portfolio-Adri-n-Dondarza)](https://Adrian24prog.github.io/Portfolio-Adri-n-Dondarza)
+[🔗 [Ver portfolio](https://Adrian24prog.github.io/Portfolio-Adri-n-Dondarza)]
 
 No es necesario instalar nada. Solo abre el enlace en tu navegador y navega por las secciones: presentación, proyectos, habilidades y contacto.
 
