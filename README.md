@@ -7,7 +7,7 @@ Este portfolio ha sido creado para mostrar mis habilidades como desarrollador/a 
 
 ## 🛠️ Tecnologías utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap  
+- **Frontend:** HTML5, CSS3 y Bootstrap  
 - **Diseño:** Figma  
 
 
